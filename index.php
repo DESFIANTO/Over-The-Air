@@ -4,6 +4,19 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="jquery/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            setInterval(function(){
+                $("#daftra").load('cekwaktu1.php');
+                $("#cekketinggian1").load('cekketinggian1.php');
+                $("#cekzona1").load('cekzona1.php');
+                $("#cekwaktu2").load('cekwaktu2.php');
+                $("#cekketinggian2").load('cekketinggian2.php');
+                $("#cekzona2").load('cekzona2.php');
+            }, 5000);
+        });
+    </script>
 
 
     <!-- Bootstrap CSS -->
@@ -39,7 +52,7 @@
     </style>
    
     <title>Over The Air</title>
-    <link rel="shortcut icon" href="image/logo1.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="image/logo21.ico" type="image/x-icon">
 </head>
 <body>
 <div class="container-fluid header-container">
